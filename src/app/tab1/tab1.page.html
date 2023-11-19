@@ -3,6 +3,18 @@
     <ion-title>
      <b> Dashboard</b>
     </ion-title>
+    <ion-buttons slot="end">
+
+
+<ion-button  (click)="goPrev ()">
+  <ion-icon slot="icon-only" name="arrow-back"> </ion-icon>
+</ion-button>
+<ion-button  (click)="goNext ()">
+  <ion-icon slot="icon-only" name="arrow-forward"> </ion-icon>
+</ion-button>
+
+
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -13,5 +25,5 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="d"></app-explore-container>
+  <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>
