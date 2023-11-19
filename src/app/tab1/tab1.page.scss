@@ -1,3 +1,13 @@
 ion-content{
     --background:linear-gradient(180deg, rgba(0,32,207,0.9248949579831933) 0%, rgba(205,0,0,1) 100%);
 }
+swiper-container{
+    width: 100%;
+    height: 100%;
+}
+swiper-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

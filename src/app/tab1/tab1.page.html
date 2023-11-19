@@ -3,15 +3,40 @@
     <ion-title>
      <b> Dashboard</b>
     </ion-title>
+    <ion-buttons slot="end">
+
+
+<ion-button  (click)="goPrev ()">
+  <ion-icon slot="icon-only" name="arrow-back"> </ion-icon>
+</ion-button>
+<ion-button  (click)="goNext ()">
+  <ion-icon slot="icon-only" name="arrow-forward"> </ion-icon>
+</ion-button>
+
+
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <swiper-container
+  #swiper
+  (afterinit)="swiperReady()"
+    (slidechange)="swiperSlideChanged($event)"
+    [loop]="true"
+    [pagination]="true"
+    >
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+
+ <swiper-slide> 
+slide 1 </swiper-slide>
+<swiper-slide> 
+slide 2
+   </swiper-slide>
+
+   <swiper-slide> 
+slide 3</swiper-slide>
+</swiper-container>
+
+<app-explore-container name=""></app-explore-container>
 </ion-content>
