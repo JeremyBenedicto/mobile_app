@@ -1,3 +1,47 @@
 ion-content{
     --background:linear-gradient(180deg, rgba(0,32,207,0.9248949579831933) 0%, rgba(205,0,0,1) 100%);
 }
+
+.we{
+    margin-top: -1rem;
+    margin-left: .8rem;
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    align-items: top;
+}
+
+.he{
+    color: white;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    margin-top: -1rem;
+}
+.we1{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+     width: 20%;
+     height: 20%;  
+ }
+.we1 img{
+    border-radius: 50%;
+}
+.we2{
+    text-align: center;
+    margin-top: -4.5rem;
+}
+.we2 h6{
+    margin-top: -1rem;
+}
+.card{
+    width: 50%;
+    margin: auto;
+}
+.card2{
+    
+    display: flex;
+    flex-direction: row;
+}

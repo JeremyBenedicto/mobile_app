@@ -19,24 +19,11 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <swiper-container
-  #swiper
-  (afterinit)="swiperReady()"
-    (slidechange)="swiperSlideChanged($event)"
-    [loop]="true"
-    [pagination]="true"
-    >
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
-
- <swiper-slide> 
-slide 1 </swiper-slide>
-<swiper-slide> 
-slide 2
-   </swiper-slide>
-
-   <swiper-slide> 
-slide 3</swiper-slide>
-</swiper-container>
-
-<app-explore-container name=""></app-explore-container>
+  <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>

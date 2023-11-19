@@ -1,3 +1,22 @@
 ion-content{
     --background:linear-gradient(180deg, rgba(0,32,207,0.9248949579831933) 0%, rgba(205,0,0,1) 100%);
 }
+
+p{
+    padding:0  10px  10px  10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ion-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+ion-icon{
+    color: aliceblue;
+}
+ion-label{
+    color: white;
+}
