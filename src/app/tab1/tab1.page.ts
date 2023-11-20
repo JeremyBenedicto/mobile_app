@@ -14,8 +14,5 @@ export class Tab1Page {
 }
 
 
-  swiperSlideChanged (e: any) {
-    console.log ('changed: ', e);
-  }
-
+ 
 }
