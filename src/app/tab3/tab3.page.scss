@@ -11,6 +11,7 @@ ion-item{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 35px;
 }
 
 ion-label{
@@ -23,11 +24,9 @@ ion-card-header{
     text-align: center;
 }
 
-ion-item{
-    padding: 30px;
+ion-item ion-icon{
+    padding: 3px;
 }
 
-ion-icon{
-    padding: 30px;
-}
+
 
