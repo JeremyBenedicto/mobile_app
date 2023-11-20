@@ -12,21 +12,22 @@ ion-footer{
     align-items: center;
     justify-content: center;
 }
-ion-icon{
-    color: aliceblue;
-}
+
 ion-label{
-    color: white;
-}
-ion-card{
-    background-color: rgba(255, 255, 255, 0.308);
+    color: rgb(2, 2, 2);
+    font-weight: bolder;
 }
 
-ion-card-subtitle{
-    color: black;
-    
+
+ion-card-header{
+    text-align: center;
 }
 
-ion-card-content{
-    color: black;
+ion-item{
+    padding: 30px;
 }
+
+ion-icon{
+    padding: 30px;
+}
+
