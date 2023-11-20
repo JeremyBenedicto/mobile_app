@@ -18,27 +18,58 @@ h3{
     margin-top: -1rem;
 }
 .we1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    height: 20%;  
+    text-align: center;
+    margin-top: 1rem;
  }
 .we1 img{
     border-radius: 50%;
+    width: 100px;
+    height: auto;
 }
+.we1 h6 {
+    font-weight: bold;
+    margin-top: -.3rem;
+}
+.we1 h5 {
+    margin-top: -1rem;
+    font-size: 15px;
+}
+
 .we2{
     text-align: center;
-    margin-top: -4.5rem;
+    margin-top: 1rem;
+ }
+.we2 img{
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
 }
-.we2 h6{
+.we2 h6 {
+    font-weight: bold;
+    margin-top: -.3rem;
+}
+.we2 h5 {
     margin-top: -1rem;
+    font-size: 15px;
 }
-.card{
-    width: 50%;
+
+.all ion-card{
+    width: 70%;
     margin: auto;
+    margin-bottom: 10px;
 }
-.card2{
-    display: flex;
-    flex-direction: row;
+
+
+.all ion-card-title{
+    text-align: center;
+    font-weight: bold;
+}
+.all ion-card-subtitle{
+    text-align: center;
+    margin-top: -.3rem;
+}
+
+.all ion-card-content{
+    text-align: center;
+    font-size: 12px;
 }
