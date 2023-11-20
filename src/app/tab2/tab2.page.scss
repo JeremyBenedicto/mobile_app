@@ -1,16 +1,16 @@
 
 
-.we{
-    margin-top: -1rem;
-    margin-left: .8rem;
+.he img{
+    width: 100px;
+    height: auto;
     position: absolute;
-    width: 20%;
-    height: 15%;
+    margin-left: -13rem;
+    margin-top: -3rem;
     
 }
 
 .he{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 h3{
@@ -19,10 +19,10 @@ h3{
 }
 .we1{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-     width: 20%;
-     height: 20%;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;  
  }
 .we1 img{
     border-radius: 50%;
@@ -39,7 +39,6 @@ h3{
     margin: auto;
 }
 .card2{
-    
     display: flex;
     flex-direction: row;
 }
