@@ -17,6 +17,7 @@ ion-icon{
 }
 ion-label{
     color: white;
+    font-weight: bolder;
 }
 ion-card{
     background-color: rgba(255, 255, 255, 0.308);
@@ -27,6 +28,12 @@ ion-card-subtitle{
     
 }
 
-ion-card-content{
-    color: black;
+
+ion-card-header{
+    text-align: center;
 }
+
+ion-item{
+    padding: 30px;
+}
+
