@@ -1,13 +1,58 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>report</ion-title>
+  <ion-toolbar color="primary">
+
+    <ion-title>Report</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">report</ion-title>
-    </ion-toolbar>
-  </ion-header>
+
+  <ion-avatar><img src="..\assets\icon\appLogo.png"></ion-avatar>
+
+<ion-list>
+
+
+  <ion-item>
+    <ion-textarea label="Full Name:" labelPlacement="floating" placeholder="Enter Full Name"></ion-textarea>
+  </ion-item>
+  
+    <ion-input label="Age:" type="number" placeholder="__"></ion-input>
+  
+    <ion-item>
+      <ion-select
+        class="always-flip"
+        toggleIcon="caret-down-sharp"
+        interface="popover"
+        label="Types of Vehicle:"
+        placeholder="Select"
+      >
+        <ion-select-option value="Bicycle">Bicycle</ion-select-option>
+        
+        <ion-select-option value="Tricycle">Tricycle</ion-select-option>
+        <ion-select-option value="4 wheels">4 wheels</ion-select-option>
+        <ion-select-option value="6 wheels">6 wheels</ion-select-option>
+        <ion-select-option value="12 wheels">12 wheels</ion-select-option>
+        <ion-select-option value="16 wheels">16 wheels</ion-select-option>
+      </ion-select>
+    </ion-item>
+  
+
+</ion-list>
+
+<ion-radio-group [allowEmptySelection]="true" >
+  <h6>Licensed:</h6>
+  <ion-radio value="Yes" labelPlacement="end">Yes</ion-radio><br />
+  <ion-radio value="No" labelPlacement="end">No</ion-radio><br />
+  </ion-radio-group>
+
+<ion-radio-group [allowEmptySelection]="true" >
+  <h6>Gender:</h6>
+  <ion-radio value="Male" labelPlacement="end">Male</ion-radio><br />
+  <ion-radio value="Female" labelPlacement="end">Female</ion-radio><br />
+  </ion-radio-group>
+  
+
+
+  
+ 
 </ion-content>
