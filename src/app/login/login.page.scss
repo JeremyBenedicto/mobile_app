@@ -1,0 +1,30 @@
+ion-content{
+    --background: rgb(61,63,73);
+    --background: linear-gradient(90deg, rgba(61,63,73,1) 0%, rgba(61,63,73,1) 100%);
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+  }
+  
+.login img{
+    margin-top: -3rem;
+    height: 15rem;
+}
+input, button{
+    margin: 5px;
+    width: 18rem;
+    border-radius: 10rem;
+}
+button{
+    color: aliceblue;
+    background: rgb(255,67,67);
+    background: linear-gradient(90deg, rgba(255,67,67,1) 0%, rgba(87,115,255,0.8520658263305322) 100%);
+}
