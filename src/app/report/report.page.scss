@@ -5,3 +5,6 @@ ion-select.always-flip::part(icon) {
   ion-select.always-flip.select-expanded::part(icon) {
     transform: rotate(180deg);
   }
+  ion-input{
+    padding: 2rem;
+  }
