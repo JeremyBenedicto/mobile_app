@@ -1,5 +1,4 @@
 
-
 p{
     padding:0  10px  10px  10px;
     display: flex;
@@ -31,5 +30,11 @@ ion-item ion-icon{
 ion-item img{
     width: 120%;
     height: 120%;
+}
+.hrad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
