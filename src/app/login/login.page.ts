@@ -17,12 +17,12 @@ export class LoginPage implements OnInit {
 
   login() {
     // Check if username and password are correct (for demonstration purposes)
-    if (this.username === 'it' && this.password === 'it') {
+    if (this.username === 'mdrrmogabaldon' && this.password === 'mdrrmogabaldon') {
       // Redirect to another page after successful login
       this.navCtrl.navigateForward('/adindashboard');
     } else {
       // Display an error message for invalid credentials
-      console.error('Invalid credentials. Please try again.');
+      alert("Wrong");
     }
   }
 }

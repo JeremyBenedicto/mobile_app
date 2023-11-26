@@ -14,17 +14,25 @@ ion-content{
     text-align: center;
   }
   
-.login img{
+img{
     margin-top: -3rem;
     height: 15rem;
 }
-input, button{
-    margin: 5px;
-    width: 18rem;
-    border-radius: 10rem;
-}
-button{
+
+ion-button{
     color: aliceblue;
-    background: rgb(255,67,67);
-    background: linear-gradient(90deg, rgba(255,67,67,1) 0%, rgba(87,115,255,0.8520658263305322) 100%);
+    border-radius: 10rem;
+    }
+ion-input, ion-button{
+   padding: 10px;
+   margin-top: 30px;
+   margin: 5px;
+    width: 18rem;
+}
+ion-item{
+    border-radius: 10rem;
+    margin: 5px;
+}
+ion-label{
+    text-align: center;
 }
