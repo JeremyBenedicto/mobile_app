@@ -10,21 +10,25 @@ export class ChartComponent implements OnInit {
   dataSource: object;
   constructor() {
     const chartData = [
-      { label: "Venezuela", value: "290" },
-      { label: "Saudi", value: "260" },
-      { label: "Canada", value: "180" },
-      { label: "Iran", value: "140" },
-      { label: "Russia", value: "115" },
-      { label: "UAE", value: "100" },
-      { label: "US", value: "30" },
-      { label: "China", value: "30" }
+      { label: "Jan", value: "102" },
+      { label: "Feb", value: "92" },
+      { label: "Mar", value: "81" },
+      { label: "Apr", value: "43" },
+      { label: "May", value: "34" },
+      { label: "Jun", value: "22" },
+      { label: "Jul", value: "78" },
+      { label: "Aug", value: "60" },
+      { label: "Sep", value: "1" },
+      { label: "Oct", value: "30" },
+      { label: "Nov", value: "20" },
+      { label: "Dec", value: "171" }
     ];
     const chartConfigs = {
-      caption: "Countries With Most Oil Reserves [2017-18]",
-      subCaption: "In MMbbl = One Million barrels",
-      xAxisName: "Country",
-      yAxisName: "Reserves (MMbbl)",
-      numberSuffix: "K",
+      caption: "Monthly Occured/Reported Accidents",
+      subCaption: "Gabaldon, Nueva Ecija",
+      xAxisName: "Accidents",
+      yAxisName: "2023-2024",
+      numberSuffix: "+-",
       theme: "fusion"
     };
     this.dataSource = {
