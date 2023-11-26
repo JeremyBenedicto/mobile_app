@@ -1,72 +1,104 @@
-
-p{
-    padding:0  10px  10px  10px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.container{
+    background-image: linear-gradient(rgba(12, 12, 12, 0.527),rgba(60, 60, 60, 0.784)) , url(mdrrmobg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    color: #ffffff;
+    box-shadow: 0px 11px 21px 0px rgba(0,0,0,0.1);
+    border-radius: 2rem;
 }
-ion-item{
+.container1{
+    background-image: linear-gradient(rgba(12, 12, 12, 0.527),rgba(60, 60, 60, 0.784)) , url(bfpbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    color: #ffffff;
+    box-shadow: 0px 11px 21px 0px rgba(0,0,0,0.1);
+    border-radius: 2rem;
+}
+.container2{
+    background-image: linear-gradient(rgba(12, 12, 12, 0.527),rgba(60, 60, 60, 0.784)) , url(pnpbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    color: #ffffff;
+    box-shadow: 0px 11px 21px 0px rgba(0,0,0,0.1);
+    border-radius: 2rem;
+}
+.container3{
+    background-image: linear-gradient(rgba(12, 12, 12, 0.527),rgba(60, 60, 60, 0.784)) , url(neecobg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    color: #ffffff;
+    box-shadow: 0px 11px 21px 0px rgba(0,0,0,0.1);
+    border-radius: 2rem;
+}
+.item{
+    height: 160px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding: 25px;
+    align-items: center;
+    flex-direction: row;
+    
 }
+.item img{
+    height: 100px;
 
-ion-label{
-    color: rgb(2, 2, 2);
+}
+.item h2{
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    border-radius: 10px;
+    padding: 8px 5px 5px 5px;
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.36);
+}
+.item h2 h4{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+
+}
+.label{
+    position: relative;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    margin-left: 8px;
+    flex-direction: column;
+}
+.label h3{
     font-weight: bolder;
-}
-
-
-ion-card-header{
-    text-align: center;
-}
-
-ion-item ion-icon{
-    padding: 3px;
-}
-
-ion-item img{
-    width: 120%;
-    height: 120%;
-}
-.hrad{
-    
-    margin-top: 5px;
-    padding: 0px;
-    background: rgb(255,67,67);
-    background: linear-gradient(90deg, rgba(255,67,67,1) 0%, rgba(87,115,255,0.8520658263305322) 100%);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    letter-spacing: 5px;
     
 }
-.diii{
+.label p{
+    font-size: 18px;
+    margin-top: -10px;
+}
+.label p ion-icon{
     margin-right: 5px;
-    height: 6rem;
-    border-radius: 50%;
-    
 }
-.HOT{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-   }
-   ion-icon{
-        size: 100px;
-   }
-   .dd{
+.face{
+    margin-top: -15px;
+    padding: 0 10px 0 10px;
+    border-radius: 1rem;
+    background: rgb(255,67,67);
+    background: linear-gradient(90deg, rgba(255,67,67,0) 0%, rgba(87,115,255,0.8520658263305322) 46%);
     display: flex;
-    flex-direction:column;
-   }
-.social{
-    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
 }
-.dii{
-    height: 10px;
-    background-color: black;
-    border-radius: 100%;
+.fb{
+    font-size:35px;
+}
+a{
+    color: white;
 }

@@ -1,13 +1,17 @@
-<ion-header [translucent]="true">
+<ion-header >
   <ion-toolbar color="primary">
-
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+      <ion-avatar><img  src="..\assets\icon\appLogo.png"></ion-avatar>
+    </ion-buttons>
+    
     <ion-title>Report</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
 
-  <ion-avatar><img src="..\assets\icon\appLogo.png"></ion-avatar>
+  
 
 <ion-list>
 
@@ -55,7 +59,10 @@
   </ion-radio-group>
 </ion-item>
 
-<ion-button shape="round" routerLink="/tab1" >Submit</ion-button>
+<ion-button shape="round" color="success"  style="position: absolute;
+right: 0;
+margin:1rem 3rem 0 3rem;
+width: 10rem;">Submit</ion-button>
   
  
 </ion-content>

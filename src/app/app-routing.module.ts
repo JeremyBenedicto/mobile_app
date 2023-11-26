@@ -25,6 +25,10 @@ const routes: Routes = [
   {
     path: 'report',
     loadChildren: () => import('./report/report.module').then( m => m.ReportPageModule)
+  },
+  {
+    path: 'adindashboard',
+    loadChildren: () => import('./adindashboard/adindashboard.module').then( m => m.AdindashboardPageModule)
   }
 ];
 @NgModule({
