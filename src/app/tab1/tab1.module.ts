@@ -20,6 +20,6 @@ import { ChartModule } from "../chart/chart.module";
     RouterModule.forChild([{ path: "", component: Tab1Page }])
   ],
   declarations: [Tab1Page],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class Tab1PageModule {}
