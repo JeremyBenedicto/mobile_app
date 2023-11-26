@@ -1,14 +1,19 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Login
-    </ion-title>
+    <ion-buttons slot="start">
+<ion-back-button>
+</ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content class="ion-padding">
+
+  <div class="login">
+    <ion-img src="..\assets\icon\appLogo.png" alt="">
+    </ion-img>
   <ion-item>
-    <ion-label position="floating">Username</ion-label>
+    <ion-label  position="floating">Username</ion-label>
     <ion-input [(ngModel)]="username" name="username" type="text" required></ion-input>
   </ion-item>
 
@@ -17,5 +22,7 @@
     <ion-input [(ngModel)]="password" name="password" type="password" required></ion-input>
   </ion-item>
 
-  <ion-button expand="full" (click)="login()">Login</ion-button>
+  <ion-button id="present-alert" shape="round" expand="full" (click)="login()">Login</ion-button>
+  
+</div>
 </ion-content>
