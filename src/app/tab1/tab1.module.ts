@@ -8,11 +8,13 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from "@angular/router";
+import { ChartModule } from "../chart/chart.module";
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
+    ChartModule,
     ExploreContainerComponentModule,
     Tab1PageRoutingModule,
     RouterModule.forChild([{ path: "", component: Tab1Page }])
