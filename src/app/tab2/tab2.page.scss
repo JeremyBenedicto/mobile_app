@@ -1,91 +1,85 @@
-ion-content{
-    --background: rgb(216, 216, 216);
-}
 .container{
+    background-image: linear-gradient(rgba(12, 12, 12, 0.527),rgba(60, 60, 60, 0.784)) , url(gabaldon.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    align-items: center;
     flex-direction: column;
-    margin: 10px;
+    color: white;
 }
-.header{
-    margin: 1rem 0 1rem 0;
+.emata{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-}
-.header img{
-    height: 100px;
-}
-.header h4{
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.bodi{
-
-    
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.organi{ 
-    width: 85%;
-    background: rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.23);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    border: 1px solid rgba(255, 255, 255, 0.56);
-    margin: 1rem;
-    display: flex;
-    padding: 0 0 1rem 0;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.organi h5{
-    text-align: center;
-}.organi img{
-    border-radius: 100%;
-    height: 180px;
-}
-.officer1, .officer2{
-    margin-top: 10px;
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.36);
     width: 85%;
+    margin: 0 2rem 2em 2rem;
+}
+.emata img {
+    height: 120px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.emata h6{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(203, 203, 203);
-    border-radius: 1rem;
-    box-shadow: 8px 8px 5px -3px rgba(0,0,0,0.1);
+}
+.celo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.celo img {
+    margin-top: -.5rem;
+    height: 120px;
+    border-radius: 50rem;
+}
+.officer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.officer1{
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    text-align: center;
+    margin: 0 .5rem 0 .5rem;
+    padding: 5px;
+}
+.officer h3{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .miss{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-}
-.miss h6{
-    color: white;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-color: bisque;
-    margin: 0 2rem 1rem 2rem;
-    padding: 1rem;
-    border-radius: 1rem;
-   background-color: rgba(0, 0, 255, 0.6);
-   width: 85%;
-   box-shadow: 8px 8px 5px -3px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
 }
-.miss h6 p{
-    font-size: 22px;
+.vis, .mis{
+    width: 85%;
+    background: rgba(105, 105, 105, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(105, 105, 105, 0.47);
+    text-align: center;
+    margin: 2rem 0 0 0;
 }
 
