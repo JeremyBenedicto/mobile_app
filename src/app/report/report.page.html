@@ -1,68 +1,76 @@
-<ion-header >
+<ion-header>
   <ion-toolbar color="primary">
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
-      <ion-avatar><img  src="..\assets\icon\appLogo.png"></ion-avatar>
     </ion-buttons>
-    
-    <ion-title>Report</ion-title>
+    <ion-title>
+      Report
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content class="ion-padding">
+  <form (ngSubmit)="submitForm()">
+    <!-- ... (other form elements) -->
+
+    <ion-item>
+      <ion-label>Upload Photo</ion-label>
+      <ion-input (change)="handleFileInput($event)" name="photo" type="file" accept="image/*"></ion-input>
+    </ion-item>
+
+    <!-- Display uploaded photo -->
+    <ion-item *ngIf="photo">
+      <ion-label>Accident Photo</ion-label>
+      <ion-img [src]="photo" alt="Uploaded Photo"></ion-img>
+    </ion-item>
+  </form>
+  <form (ngSubmit)="submitForm()">
+    <ion-item>
+      <ion-label position="floating">Name</ion-label>
+      <ion-input [(ngModel)]="name" name="name" type="text" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Age</ion-label>
+      <ion-input [(ngModel)]="age" name="age" type="Number" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Address</ion-label>
+      <ion-input [(ngModel)]="address" name="address" type="text" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Location</ion-label>
+      <ion-input [(ngModel)]="location" name="location" type="text" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Gender</ion-label>
+      <ion-select [(ngModel)]="gender" name="gender" required>
+        <ion-select-option value="male">Male</ion-select-option>
+        <ion-select-option value="female">Female</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Vehicular</ion-label>
+      <ion-select [(ngModel)]="vehicular" name="vehicular" required>
+        <ion-select-option value="Bicycle">Bicycle</ion-select-option>
+        <ion-select-option value="Motorcycle">Motorcycle</ion-select-option>
+        <ion-select-option value="Tricycle">Tricycle</ion-select-option>
+        <ion-select-option value="4 Wheels Vehicle">4 Wheels Vehicle</ion-select-option>
+        <ion-select-option value="Others">Others</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Mobile Number</ion-label>
+      <ion-input [(ngModel)]="mobileNumber" name="mobileNumber" type="tel" required></ion-input>
+    </ion-item>
+
+    <ion-button type="submit" expand="full" color="success">Submit</ion-button>
+  </form>
 
   
-
-<ion-list>
-
-  <ion-item>
-    <ion-select
-      class="always-flip"
-      toggleIcon="caret-down-sharp"
-      interface="popover"
-      label="Types of Vehicle:"
-      placeholder="Select"
-    >
-      <ion-select-option value="Bicycle">Bicycle</ion-select-option>
-      
-      <ion-select-option value="Tricycle">Tricycle</ion-select-option>
-      <ion-select-option value="4 wheels">4 wheels</ion-select-option>
-      <ion-select-option value="6 wheels">6 wheels</ion-select-option>
-      <ion-select-option value="12 wheels">12 wheels</ion-select-option>
-      <ion-select-option value="16 wheels">16 wheels</ion-select-option>
-    </ion-select>
-  </ion-item>
-
-  <ion-item>
-    <ion-textarea label="Full Name:" labelPlacement="floating" placeholder="Enter Full Name"></ion-textarea>
-  </ion-item>
-  
-    <ion-input label="Age:" type="number" placeholder="__"></ion-input>
- 
-    
-  
-
-</ion-list>
-
- <ion-item>   <ion-radio-group [allowEmptySelection]="true" >
-  <h6>Licensed:</h6>
-  <ion-radio value="Yes" labelPlacement="end">Yes</ion-radio><br />
-  <ion-radio value="No" labelPlacement="end">No</ion-radio><br />
-  </ion-radio-group>
-</ion-item>
-
-<ion-item>
-<ion-radio-group [allowEmptySelection]="true" >
-  <h6>Gender:</h6>
-  <ion-radio value="Male" labelPlacement="end">Male</ion-radio><br />
-  <ion-radio value="Female" labelPlacement="end">Female</ion-radio><br />
-  </ion-radio-group>
-</ion-item>
-
-<ion-button shape="round" color="success"  style="position: absolute;
-right: 0;
-margin:1rem 3rem 0 3rem;
-width: 10rem;">Submit</ion-button>
-  
- 
 </ion-content>
