@@ -1,28 +1,23 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="primary">
     <ion-title>
+      
      <b> Dashboard</b>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-card> <img style="padding: 4px; height: 180px; width: 200;"   src="https://w.bookcdn.com/weather/picture/3_w434006_1_1_137AE9_427_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=69967&domid=w209&anc_id=74040" /></ion-card>
- <ion-card> <iframe width="650" height="450"
-   src="https://embed.windy.com/embed2.html?lat=15.403&lon=121.472&detailLat=10.963&detailLon=125.667&width=650&height=450&zoom=11&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
-    frameborder="0"></iframe></ion-card>
 
-
-<ion-card>
-  
-    
-</ion-card>
+  <ion-card> <img style="padding: 4px; height: 180px; width: 100%;"   src="https://w.bookcdn.com/weather/picture/3_w434006_1_1_137AE9_427_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=69967&domid=w209&anc_id=74040" /></ion-card>
  
-<ion-card>
-</ion-card>
+  <ion-card> 
+    <iframe width="100%" height="450"
+      src="https://embed.windy.com/embed2.html?lat=15.403&lon=121.472&detailLat=10.963&detailLon=125.667&width=650&height=450&zoom=11&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
+      frameborder="0">
+    </iframe>
+  </ion-card>
 
-
-
-
+  <chart-container></chart-container>
   <app-explore-container name=""></app-explore-container>
 </ion-content> 
