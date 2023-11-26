@@ -1,74 +1,67 @@
+ion-content{
+    --background: rgb(216, 216, 216);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    margin: 10px;
+}
+.header{
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: row;
+}
+.header img{
+    height: 130px;
+}
+.header h4{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bodi{
 
-
-.he img{
-    width: 100px;
-    height: auto;
-    position: absolute;
-    margin-left: -13rem;
-    margin-top: -3rem;
     
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.organi{ 
+    width: 85%;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.56);
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.organi h5{
+    text-align: center;
+}.organi img{
+    border-radius: 100%;
+    height: 200px;
+}
+.officer1{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(203, 203, 203);
+    border-radius: 1rem;
+    box-shadow: 0px 11px 8px -3px rgba(0,0,0,0.1);
 }
 
-.he{
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-h3{
-    font-size: 20px;
-    margin-top: -1rem;
-}
-.we1{
-    text-align: center;
-    margin-top: 1rem;
- }
-.we1 img{
-    border-radius: 50%;
-    width: 100px;
-    height: auto;
-}
-.we1 h6 {
-    font-weight: bold;
-    margin-top: -.3rem;
-}
-.we1 h5 {
-    margin-top: -1rem;
-    font-size: 15px;
-}
 
-.we2{
-    text-align: center;
-    margin-top: 1rem;
- }
-.we2 img{
-    border-radius: 50%;
-    width: 100px;
-    height: auto;
-}
-.we2 h6 {
-    font-weight: bold;
-    margin-top: -.3rem;
-}
-.we2 h5 {
-    margin-top: -1rem;
-    font-size: 15px;
-}
-
-.all ion-card{
-    width: 70%;
-    margin: auto;
-    margin-bottom: 10px;
-    border-top: 5px solid;
-}
-
-.all ion-card-title{
-    text-align: center;
-    font-weight: bold;
-}
-.all ion-card-subtitle{
-    text-align: center;
-}
-
-.all ion-card-content{
-    text-align: center;
-    font-size: 12px;
-}
