@@ -1,74 +1,85 @@
-
-
-.he img{
-    width: 100px;
-    height: auto;
-    position: absolute;
-    margin-left: -13rem;
-    margin-top: -3rem;
-    
+.container{
+    background-image: linear-gradient(rgba(12, 12, 12, 0.527),rgba(60, 60, 60, 0.784)) , url(gabaldon.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
 }
-
-.he{
-    color: rgb(0, 0, 0);
+.emata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    width: 85%;
+    margin: 0 2rem 2em 2rem;
+}
+.emata img {
+    height: 120px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.emata h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.celo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.celo img {
+    margin-top: -.5rem;
+    height: 120px;
+    border-radius: 50rem;
+}
+.officer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.officer1{
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.36);
     text-align: center;
+    margin: 0 .5rem 0 .5rem;
+    padding: 5px;
 }
-h3{
-    font-size: 20px;
-    margin-top: -1rem;
+.officer h3{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.we1{
+.miss{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.vis, .mis{
+    width: 85%;
+    background: rgba(105, 105, 105, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(105, 105, 105, 0.47);
     text-align: center;
-    margin-top: 1rem;
- }
-.we1 img{
-    border-radius: 50%;
-    width: 100px;
-    height: auto;
-}
-.we1 h6 {
-    font-weight: bold;
-    margin-top: -.3rem;
-}
-.we1 h5 {
-    margin-top: -1rem;
-    font-size: 15px;
+    margin: 2rem 0 0 0;
 }
 
-.we2{
-    text-align: center;
-    margin-top: 1rem;
- }
-.we2 img{
-    border-radius: 50%;
-    width: 100px;
-    height: auto;
-}
-.we2 h6 {
-    font-weight: bold;
-    margin-top: -.3rem;
-}
-.we2 h5 {
-    margin-top: -1rem;
-    font-size: 15px;
-}
-
-.all ion-card{
-    width: 70%;
-    margin: auto;
-    margin-bottom: 10px;
-    border-top: 5px solid;
-}
-
-.all ion-card-title{
-    text-align: center;
-    font-weight: bold;
-}
-.all ion-card-subtitle{
-    text-align: center;
-}
-
-.all ion-card-content{
-    text-align: center;
-    font-size: 12px;
-}
