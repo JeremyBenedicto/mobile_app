@@ -5,7 +5,8 @@ import { AdindashboardPage } from './adindashboard.page';
 
 const routes: Routes = [
   {
-    path: '',
+    path: '', 
+    
     component: AdindashboardPage
   }
 ];
