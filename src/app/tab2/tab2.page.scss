@@ -60,6 +60,23 @@
     margin: 0 .5rem 0 .5rem;
     padding: 5px;
 }
+.officer0{
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    text-align: center;
+    margin: 0 .5rem 1rem .5rem;
+    padding: 20px;
+    
+}
+.office{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .officer h3{
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
