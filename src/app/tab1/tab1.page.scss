@@ -1,9 +1,20 @@
-swiper-container{
-    width: 95%;
-    height: 50%;
-    margin-top: -10rem;
-
+@media(max-width : 461px){
+    swiper-container{
+        width: 95%;
+        height: 60%;
+        margin-top: -30rem;
+    
+    }
 }
+@media(min-width : 462px){
+    swiper-container{
+        width: 95%;
+        height: 65rem;
+        margin-top: 15rem;
+    
+    }
+}
+
 
 swiper-slide{
     display: flex;
