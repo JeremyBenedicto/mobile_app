@@ -10,17 +10,17 @@ export class ChartComponent implements OnInit {
   dataSource: object;
   constructor() {
     const chartData = [
-      { label: "Jan", value: "102" },
-      { label: "Feb", value: "92" },
-      { label: "Mar", value: "81" },
-      { label: "Apr", value: "43" },
-      { label: "May", value: "34" },
-      { label: "Jun", value: "22" },
+      { label: "Jan", value: "91" },
+      { label: "Feb", value: "87" },
+      { label: "Mar", value: "68" },
+      { label: "Apr", value: "54" },
+      { label: "May", value: "68" },
+      { label: "Jun", value: "71" },
       { label: "Jul", value: "78" },
       { label: "Aug", value: "60" },
-      { label: "Sep", value: "1" },
-      { label: "Oct", value: "30" },
-      { label: "Nov", value: "20" },
+      { label: "Sep", value: "75" },
+      { label: "Oct", value: "56" },
+      { label: "Nov", value: "54" },
       { label: "Dec", value: "71" }
     ];
     const chartConfigs = {
