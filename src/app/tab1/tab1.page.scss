@@ -1,19 +1,18 @@
-@media(max-width : 461px){
+@media(max-width : 415px){
     swiper-container{
-        width: 95%;
         height: 60%;
-        margin-top: -30rem;
-    
+        margin-top: -20rem;
     }
 }
-@media(min-width : 462px){
+@media(max-width : 380px){
     swiper-container{
-        width: 95%;
-        height: 65rem;
-        margin-top: 15rem;
-    
+        height: 60%;
+        margin-top: -10rem;
     }
 }
+
+
+
 
 
 swiper-slide{

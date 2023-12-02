@@ -17,7 +17,7 @@ export class LoginPage implements OnInit {
 
   login() {
     
-    if (this.username === 'it' && this.password === 'it') {
+    if (this.username === 'mdrrmo' && this.password === 'EAlerto') {
       
       this.navCtrl.navigateForward('/adindashboard');
     } else {
