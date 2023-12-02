@@ -21,14 +21,14 @@ export class ChartComponent implements OnInit {
       { label: "Sep", value: "1" },
       { label: "Oct", value: "30" },
       { label: "Nov", value: "20" },
-      { label: "Dec", value: "171" }
+      { label: "Dec", value: "71" }
     ];
     const chartConfigs = {
       caption: "Monthly Occured/Reported Accidents",
       subCaption: "Gabaldon, Nueva Ecija",
       xAxisName: "Accidents",
-      yAxisName: "2023-2024",
-      numberSuffix: "+-",
+      yAxisName: "2021-2022",
+      numberSuffix: "+",
       theme: "fusion"
     };
     this.dataSource = {
